@@ -5,7 +5,9 @@ class card extends HTMLElement {
 }
 async function getData () {
     const json = await fetch (turimso.json)
-    if (!response.ok)
+    if (!response.ok) {
+        
+    }
 }
 
   
